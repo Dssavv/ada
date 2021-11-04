@@ -1,0 +1,281 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(img/BG.png);
+}
+*{
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: #A46C4C;
+}
+a:hover{
+	color: #FFFFFF;
+}
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 119px;
+	padding-top: 40px;
+}
+#header img{
+	margin-left: 160px;
+}
+#header ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding-top: 70px;
+padding-right: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+text-transform: uppercase;
+list-style-type: none;
+}
+#header li{
+	margin-right: 60px;
+}
+#Главная{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#title h1{
+	width: 900px;
+	margin-top: 200px;
+	margin-bottom: 70px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 130.34%;
+text-align: center;
+color: #FFFFFF;
+}
+input[type="submit"]{
+width: 320px;
+height: 60px;
+background: linear-gradient(180deg, #723928 0%, #B97B5B 100%), #C4C4C4;
+border-radius: 40px;
+border-style: none;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+color: #FFFFFF;
+}
+#txt_blocks {
+	display: flex;
+	flex-direction: row;
+	align-items: top;
+	margin-top: 200px;
+	margin-bottom: 347px;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#txt_blocks h3{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+color: #A46C4C;
+}
+#txt h3{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+color: #A46C4C;
+}
+#txt p{
+	width: 200px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+padding-right: 120px;
+}
+#txt_blocks p{
+		width: 200px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+}
+#проекты {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 1080px;
+background: #06121A;
+}
+#проекты h1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 130.34%;
+text-align: center;
+color: #A46C4C;
+margin-top: 80px;
+}
+#проектыtxt {
+	display: flex;
+	flex-direction: row;
+	align-items: top;
+	margin-top: 80px;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#txt1 h3{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+color: #A46C4C;
+}
+#txt1 p{
+	width: 200px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+padding-right: 180px;
+}
+#проектыtxt h3{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+color: #A46C4C;
+}
+#проектыtxt p{
+		width: 200px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+}
+#компания {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 840px;
+}
+#компания h1{
+	margin-top: 200px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 130.34%;
+text-align: center;
+color: #FFFFFF;
+}
+#компания p{
+	width: 827px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 160%;
+color: #FFFFFF;
+}
+#партнеры {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 800px;
+}
+#партнеры h1{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 130.34%;
+text-align: center;
+color: #FFFFFF;
+}
+#img1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#img2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#img1 img{
+	margin: 60px;
+}
+#img2 img{
+	margin: 60px;
+}
+#контакты {
+	height: 760px;
+background: #06121A;
+display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+#logocontact {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	margin-left: 180px;
+}
+#logocontact img{
+	height: 123px;
+	width: 402px;
+	margin-bottom: 80px;
+}
+#контактыtxt {
+	display: flex;
+	flex-direction: row;
+	align-items: top;
+}
+#контактыtxt h1{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 160%;
+color: #A46C4C;
+}
+#контактыtxt h2{
+	width: 300px;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+padding-right: 80px;
+}
+
